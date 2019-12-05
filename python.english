@@ -1,9 +1,14 @@
-Python for kids in local languages
-Why?
-Normally, programming books are written in English language. This makes programming accessible only to those who know English. This attempt is to create a resource in different local languages so that kids can learn programming in their mother tongue. By thinking and programming in our mother tongue we can do a much better job. It becomes more natural.
+# Python for kids in local languages
 
-Introduction
-Many people think programming is a very tough thing. Most people have a fear of computers. They think only a few people can program. Let me clarify it for you. Anyone can program. If you can think and if you can communicate, you can program.
+## Why?
+
+Normally, programming books are written in English language. This makes programming accessible only to those who know English. 
+This attempt is to create a resource in different local languages so that kids can learn programming in their mother tongue. 
+By thinking and programming in our mother tongue we can do a much better job. It becomes more natural.
+
+## Introduction
+Many people think programming is a very tough thing. Most people have a fear of computers. 
+They think only a few people can program. Let me clarify it for you. Anyone can program. If you can think and if you can communicate, you can program.
 Programming is nothing but talking to a computer. If I have to speak to you, I speak in Telugu. If I have to speak to an American, I speak in English. If I have to speak to a computer, I speak in a programming language. That’s it.
 
 Just like there are many natural languages, there are many programming languages. Python is one such programming language. This is a very easy language to learn and it comes pre installed in many computers so you don’t need to do anything else. I will be using Ubuntu Linux to show the examples. Python comes pre installed in Ubuntu. If you have a Windows machine ask your parents to find instructions and install Python before you start reading the next chapters.
@@ -27,11 +32,11 @@ Now let’s make this interesting. I give you a puppet/robot (Or you can try thi
 
 I would tell the following:
 
-Pick the first card.
-Pick the next card.
-If the new card is bigger then keep that in your hand and drop the older card.
-Do steps 2 and 3 until you run out of cards.
-The card in your hand is the largest card.
+1 Pick the first card.
+2 Pick the next card.
+3 If the new card is bigger then keep that in your hand and drop the older card. Basically keep the card with the larger number and drop the card with the smaller number.
+4 Do steps 2 and 3 until you run out of cards.
+5 The card in your hand is the largest card.
 
 You have just written your first program. In fact, this sequence of steps is called an algorithm.
 
