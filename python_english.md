@@ -130,10 +130,10 @@ Problem: Raja has 5 apples. Rani has 4 apples. How many apples do both of them h
 How do you generally solve this? You will do something like this on paper.
 
 Number of apples Raja has=5
+
 Number of apples Rani has=4
-Total number of apples=Number of apples Raja has + Number of apples Rani has
-                      =5+4                
-                      =9
+
+Total number of apples=Number of apples Raja has + Number of apples Rani has=5+4=9
 
 Now let's see how you would do this in python.
 
