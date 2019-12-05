@@ -79,6 +79,7 @@ You will get something like below. You are now in the python interpretor.
 Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
 [GCC 5.4.0 20160609] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
+
 \>\>\> 
 
 You can start communicating with your computer by typing commands after ">>>"
@@ -131,9 +132,7 @@ How do you generally solve this? You will do something like this on paper.
 Number of apples Raja has=5
 Number of apples Rani has=4
 Total number of apples=Number of apples Raja has + Number of apples Rani has
-
-                      =5+4
-                      
+                      =5+4                
                       =9
 
 Now let's see how you would do this in python.
