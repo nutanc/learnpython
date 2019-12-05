@@ -63,3 +63,89 @@ I would tell the following:
 You have just written your first program. In fact, this sequence of steps is called an algorithm.
 
 But since computers can’t understand English, we have to rewrite the above program in a language they understand like Python. And this is what you will be learning.
+
+Good. You have understood the basics of programming. Time to take a rest. Come back tomorrow and you can start interacting with your computer using Python.
+
+--------------------------------------------------------------------------------------------------------------------
+
+## First steps
+
+Welcome back. Today we will start with Python coding. Open the terminal/command prompt on your computer(ask your parents if you don't know how) and type python.
+
+>python
+
+You will get something like below. You are now in the python interpretor.
+
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+
+You can start communicating with your computer by typing commands after ">>>"
+
+As I explained earlier, you can tell the computer what to do in it's language. So, the first thing we will ask the computer to do is ask it to print something. And how you do that, we do that by using the print() function. So, what is print(). print() is like telling the computer,"Hey computer, take whatever I put in between ( and ) and display it". Instead of typing the full English sentence everytime and since the computer does not know English, we use print() in python language. Let's try it out.
+
+>>>print(4)
+
+What did it output? It would have displayed 4. Let's try more.
+
+>>>print(987)
+
+>>>print(54)
+
+Now,let's try something else.
+
+>>>print("Hello World")
+
+Did you see. I used " and ". This is another rule in the python language. When you use numbers 4, 987, 54 etc we don't need to use "". But if we are working with words and sentences then we need to use " ". When we use " ", they are called as strings.
+
+Ok. Good. This is all great. But the computer is not doing anything useful. It is just displaying what we give it. Let's try something more useful.
+
+>>>print(4+5)
+
+9
+
+Wow! The computer did the addition and gave the answer for you. What about
+
+>>>print(45675456+98373747)
+
+144049203
+
+Cool. Can python also do other mathematical operations? Let's try it out. You can use the following in the python language:
+
+* Multiplication - *
+* Division - /
+* Addition - +
+* Subtraction - -
+
+Try playing around with these operators at the prompt. Don't worry, you will not break the computer. Type whatever you want and see what the computer displays.
+
+Right now you have learnt to ask the computer to do math problems for you. Go ahead and use the python language to do your math homework :)
+
+Let's try to make the computer do a math homework problem.
+
+Problem: Raja has 5 apples. Rani has 4 apples. How many apples do both of them have together.
+
+How do you generally solve this? You will do something like this on paper.
+
+Number of apples Raja has=5
+Number of apples Rani has=4
+Total number of apples=Number of apples Raja has + Number of apples Rani has
+.
+                      =5+4
+.                      
+                      =9
+
+Now let's see how you would do this in python.
+
+>>>Number_of_apples_raja_has=5
+
+>>>Number_of_apples_rani_has=4
+
+>>>Total_apples=Number_of_apples_raja_has+Number_of_apples_rani_has
+
+>>>print(Total_apples)
+
+See, so simple. It's like you wrote on paper. Only thing is there are some rules for python. If you see, "Number of apples rani has" became "Number_of_apples_rani_has". For now think that it's because python does not ike spaces too much. So we replaced the space with '\_'. Or you could have used "Numberofapplesranihas". Anything is fine as long as space is not there.
+
+Number_of_apples_rani_has is called as a variable in python. So what did you do above. You told the computer to store apples raja has in Number_of_apples_raja_has variable and apples rani has in Number_of_apples_rani_has variable. Then you told the computer to add those two variables. Finally you asked the computer to print the answer. It's as simple as that. Tell the computer one step at a time, in a language it can understand and it will do the tasks and give you the result.
