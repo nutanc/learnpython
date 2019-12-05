@@ -13,7 +13,7 @@ Programming is nothing but talking to a computer. If I have to speak to you, I s
 
 Just like there are many natural languages, there are many programming languages. Python is one such programming language. This is a very easy language to learn and it comes pre installed in many computers so you don’t need to do anything else. I will be using Ubuntu Linux to show the examples. Python comes pre installed in Ubuntu. If you have a Windows machine ask your parents to find instructions and install Python before you start reading the next chapters.
 
-*** So what is programming? Why do we need to learn programming?
+### So what is programming? Why do we need to learn programming?
 
 The computer is a very powerful multi purpose machine which can be used to do a lot of things. But it cannot do the things on its own. It needs to be told what to do. And we use programming languages to tell it what to do. So basically a program is a sequence of instructions which tells a computer what to do. And just like we only understand when someone tells us in a language we know, computers do the actions only when they are told in a language they know.
 
