@@ -148,3 +148,33 @@ Now let's see how you would do this in python.
 See, so simple. It's like you wrote on paper. Only thing is there are some rules for python. If you see, "Number of apples rani has" became "Number_of_apples_rani_has". For now think that it's because python does not ike spaces too much. So we replaced the space with '\_'. Or you could have used "Numberofapplesranihas". Anything is fine as long as space is not there.
 
 Number_of_apples_rani_has is called as a variable in python. So what did you do above. You told the computer to store apples raja has in Number_of_apples_raja_has variable and apples rani has in Number_of_apples_rani_has variable. Then you told the computer to add those two variables. Finally you asked the computer to print the answer. It's as simple as that. Tell the computer one step at a time, in a language it can understand and it will do the tasks and give you the result.
+
+-------------------------------------------------------------------------------------------------------------
+
+## What's life without conditions?
+
+So you have learnt to tell the computer, Number_of_apples_raja_has=5 and also learnt to ask it to do some math problems for you. BTW, Number_of_apples_raja_has=5 is called as assignment. You are assigning the value 5 to the variable Number_of_apples_raja_has. We can think of assignment as one kind of sentence in the Python language.
+
+Let's change the above problem statement slightly.
+
+Problem: Raja has 5 apples. Rani has 4 apples. Who has more apples?
+
+Can you write a Python program to solve this?
+
+You will start by saying
+
+\>\>\>Number_of_apples_raja_has=5
+
+\>\>\>Number_of_apples_rani_has=4
+
+But after this what? If you don't know some words in a langauge you cannot explain an idea. Similarly, since you don't know how to tell a computer to check for a condition you are stuck.
+
+You can't obviously say:
+
+\>\>\> If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner.
+
+You can't say the above because the computer does not know English and it cannot understand the above sentence. So lets see how we can create a similar sentence in Python. In Python such sentences are represented by "if else" statements.
+
+You have to follow the following rules to write such sentences:
+
+
