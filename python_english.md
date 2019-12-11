@@ -175,6 +175,56 @@ You can't obviously say:
 
 You can't say the above because the computer does not know English and it cannot understand the above sentence. So lets see how we can create a similar sentence in Python. In Python such sentences are represented by "if else" statements.
 
-You have to follow the following rules to write such sentences:
+You have to follow some rules to write such sentences. The condition sentence is written in Python as follows.
+
+if condition:
+
+    statements
+    
+else:
+
+    statements
+    
+
+So the sentence is constructed as follows. You start with 'if' then write the condition then end with ':' to say to the computer that the condition is over. Then hit 'enter' key on your keyboard. Next is very important in Python language. You have to indent the next line. That is, hit 'space' 4 times or hit 'tab' once. Then you can write assignment statements which you learnt earlier. You can write as many as you want.
+
+After you are done with 'if', you can move to 'else'. If you don't have an else condition you can stop here. Else sentence is easier. You just type 'else'(note the indentation), then ':' hit 'enter', hit 'tab' and type your statements.
+
+Lets now look at the conditions supported in Python. They are
+
+* Equals: a == b. (That is, in English we say a is equal to b. In Python it's a == b)
+
+* Not Equals: a != b
+
+* Less than: a < b
+
+* Less than or equal to: a <= b
+
+* More than: a > b
+
+* More than or equal to: a >= b
+
+A little hard no? It's ok. Once you practice a few it will become easy.
+
+Now let's see with this new knowledge how can we write the sentence 'If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner.' in Python
+
+if Number_of_apples_raja_has > Number_of_apples_rani_has:
+
+    print("Raja is the winner")
+    
+else:
+
+    print("Rani is the winner")
+
+See how cleanly and easily we are able to convert an English sentence into Python. 
+'If' became 'if'
+
+'is more than' became '>'
+
+'then' became ':'
+
+'Otherwise' became 'else'
+
+That's all. This is why Python is such an easy language to learn.
 
 
