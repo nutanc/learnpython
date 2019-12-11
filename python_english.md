@@ -86,13 +86,13 @@ You can start communicating with your computer by typing commands after ">>>"
 
 As I explained earlier, you can tell the computer what to do in it's language. So, the first thing we will ask the computer to do is ask it to print something. And how you do that, we do that by using the print() function. So, what is print(). print() is like telling the computer,"Hey computer, take whatever I put in between ( and ) and display it". Instead of typing the full English sentence everytime and since the computer does not know English, we use print() in python language. Let's try it out.
 
-\>\>\>print(4)
+`>>>print(4)`
 
 What did it output? It would have displayed 4. Let's try more.
 
-\>\>\>print(987)
+`>>>print(987)`
 
-\>\>\>print(54)
+`>>>print(54)`
 
 Now,let's try something else.
 
@@ -180,11 +180,8 @@ You have to follow some rules to write such sentences. The condition sentence is
 ```python
 
 if condition:
-
-    statements
-    
+    statements    
 else:
-
     statements
     
 ```
@@ -213,12 +210,9 @@ Now let's see with this new knowledge how can we write the sentence 'If Number_o
 
 ```python
 
-if Number_of_apples_raja_has > Number_of_apples_rani_has:
-    
-    print("Raja is the winner")
-    
+if Number_of_apples_raja_has > Number_of_apples_rani_has:    
+    print("Raja is the winner")    
 else:
-
     print("Rani is the winner")
 
 ```
