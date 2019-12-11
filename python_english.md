@@ -177,6 +177,8 @@ You can't say the above because the computer does not know English and it cannot
 
 You have to follow some rules to write such sentences. The condition sentence is written in Python as follows.
 
+```python
+
 if condition:
 
     statements
@@ -185,6 +187,7 @@ else:
 
     statements
     
+```
 
 So the sentence is constructed as follows. You start with 'if' then write the condition then end with ':' to say to the computer that the condition is over. Then hit 'enter' key on your keyboard. Next is very important in Python language. You have to indent the next line. That is, hit 'space' 4 times or hit 'tab' once. Then you can write assignment statements which you learnt earlier. You can write as many as you want.
 
@@ -208,13 +211,17 @@ A little hard no? It's ok. Once you practice a few it will become easy.
 
 Now let's see with this new knowledge how can we write the sentence 'If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner.' in Python
 
-if Number_of_apples_raja_has > Number_of_apples_rani_has:
+```python
 
+if Number_of_apples_raja_has > Number_of_apples_rani_has:
+    
     print("Raja is the winner")
     
 else:
 
     print("Rani is the winner")
+
+```
 
 See how cleanly and easily we are able to convert an English sentence into Python. 
 'If' became 'if'
@@ -226,5 +233,28 @@ See how cleanly and easily we are able to convert an English sentence into Pytho
 'Otherwise' became 'else'
 
 That's all. This is why Python is such an easy language to learn.
+
+This is how you write all programs. Understand the problem in your language(English/Telugu). Think of a solution in your langauge. Convert the sentences into Python language. Feed it to computer and let the computer solve the problem for you.
+
+Let's try this out with another small example.
+
+Problem: Take a number. Check if it is even or odd.
+
+Solution in English: Let number be stored in variable 'num'. If the remainder when num is divided by 2 is zero then it's an even number. Otherwise it's an odd number. So we need to take the number. Calculate it's remainder and then check the condition on the remainder.
+
+Solution in Python:
+
+```python
+
+num=5
+remainder=num/5
+if remainder==0:
+    print("Even number")
+else:
+    print("Odd number")
+
+```
+We stored the remainder value in a new variable called 'remainder' and then used that in the condition.
+
 
 
