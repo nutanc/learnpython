@@ -252,5 +252,42 @@ else:
 ```
 We stored the remainder value in a new variable called 'remainder' and then used that in the condition.
 
+Before we finish with conditions, let's look at one final problem. Let's go back to the Raja, Rani, apples problem. We saw how we can represent "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner." in Python. But what if I add another condition. "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner. If both have equal number of apples, then it's a tie".
 
+You could do something like
+
+```python
+if Number_of_apples_raja_has > Number_of_apples_rani_has:    
+    print("Raja is the winner")    
+if Number_of_apples_rani_has > Number_of_apples_raja_has: 
+    print("Rani is the winner")
+if Number_of_apples_rani_has == Number_of_apples_raja_has: 
+    print("It's a tie")
+```
+But Python has a more elegant language construct, 'elif'.
+
+Just like 'else', 'elif' is also optional. You can also have any number of 'elif's. Python will look at all the elif conditions and find the the first TRUE one and execute those statements.
+
+The syntax(language rules) of elif is
+
+```python
+if condition1:
+   statement(s)
+elif condition2:
+   statement(s)
+elif condition3:
+   condition(s)
+else:
+   statement(s)
+```
+
+Now that we new a word in Python language lets use it to write the solution to the above problem. We can write "" in Python as
+```python
+if Number_of_apples_raja_has > Number_of_apples_rani_has:    
+    print("Raja is the winner")    
+elif Number_of_apples_rani_has > Number_of_apples_raja_has: 
+    print("Rani is the winner")
+else: 
+    print("It's a tie")
+```
 
