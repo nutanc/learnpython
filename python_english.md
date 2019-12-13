@@ -119,6 +119,7 @@ Cool. Can python also do other mathematical operations? Let's try it out. You ca
 * Division - /
 * Addition - +
 * Subtraction - -
+* Modulo - % (Modulo operator gives the reminder after division)
 
 Try playing around with these operators at the prompt. Don't worry, you will not break the computer. Type whatever you want and see what the computer displays.
 
@@ -243,7 +244,7 @@ Solution in Python:
 ```python
 
 num=5
-remainder=num/5
+remainder=num%5
 if remainder==0:
     print("Even number")
 else:
@@ -252,7 +253,9 @@ else:
 ```
 We stored the remainder value in a new variable called 'remainder' and then used that in the condition.
 
-Before we finish with conditions, let's look at one final problem. Let's go back to the Raja, Rani, apples problem. We saw how we can represent "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner." in Python. But what if I add another condition. "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner. If both have equal number of apples, then it's a tie".
+Before we finish with conditions, let's look at couple of final concepts. 
+
+Let's go back to the Raja, Rani, apples problem. We saw how we can represent "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner." in Python. But what if I add another condition. "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner. If both have equal number of apples, then it's a tie".
 
 You could do something like
 
@@ -281,7 +284,8 @@ else:
    statement(s)
 ```
 
-Now that we new a word in Python language lets use it to write the solution to the above problem. We can write "" in Python as
+Now that we new a word in Python language lets use it to write the solution to the above problem. We can write "If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner. If both have equal number of apples, then it's a tie" in Python as
+
 ```python
 if Number_of_apples_raja_has > Number_of_apples_rani_has:    
     print("Raja is the winner")    
@@ -291,3 +295,42 @@ else:
     print("It's a tie")
 ```
 
+Also, just like any other language you can write different sentences with the same meaning. For example a different solution to the above problem but using '<'(less than) can also be written. Why don't you try it out. Some other excercises you should try out before moving on:
+
+1. Store marks from different subjects. Find their total. If total is above or equal to 80, give A grade. Else, give B grade.
+2. Check if an year is a leap year or not.
+3. Create your own problems and solve them :)
+
+For the final concept in conditions, lets look at logical operators.
+
+Problem: Find if a number is divisible by 5 and 11.
+
+```python
+num=55
+if(num%5==0):
+    print("Divisble by 5")
+if(num%55==0):
+    print("Divisble by 11")
+```
+
+What will the above program do? It will output:
+
+Divisible by 5
+Divisible by 11
+
+But we want to print:
+
+Divisible by 5 and 11
+
+So how can we do it. To combine two conditions, we use logical operators. The most common logical operators in Python are 'and' and 'or'. When you use 'and' only when the both the conditions are true the overall condition becomes TRUE. When you use 'or' even if one of the conditions is true the overall condition becomes TRUE. So using the logical 'and' operator we can write the solution for the above problem as
+
+```python
+num=55
+if(num%5 == 0 and num%11 == 0):
+    print('Divisible by 5 and 11')
+else:
+    print('Not Divisible by 5 and 11')
+```
+Great. Now lets try to combine all the concepts into one problem. See if you can solve it.
+
+Problem: Store marks of different subjects. Find their total. If the total is above or equal to 80 give A grade. If total is between 60 and 80 give B grade. If total is between 40 and 60 give C grade. If total is below 40 give F grade.
