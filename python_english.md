@@ -323,6 +323,7 @@ But we want to print:
 Divisible by 5 and 11
 
 So how can we do it. To combine two conditions, we use logical operators. The most common logical operators in Python are 'and' and 'or'. When you use 'and' only when the both the conditions are true the overall condition becomes TRUE. When you use 'or' even if one of the conditions is true the overall condition becomes TRUE. So using the logical 'and' operator we can write the solution for the above problem as
+(I am not showin the prompt >>> from now on)
 
 ```python
 num=55
@@ -334,3 +335,109 @@ else:
 Great. Now lets try to combine all the concepts into one problem. See if you can solve it.
 
 Problem: Store marks of different subjects. Find their total. If the total is above or equal to 80 give A grade. If total is between 60 and 80 give B grade. If total is between 40 and 60 give C grade. If total is below 40 give F grade.
+
+
+## Lists and Loops
+
+Let's go back to the first problem. Can we solve it with the Python we have learnt so far?
+
+Problem: Let’s say I give you 5 cards. Each card has one number on it. Let’s say the numbers are 5,1,3,8,4. Find the largest number in the 5 cards.
+
+I think we can do it like this
+
+```python
+number1=5
+number2=1
+number3=3
+number4=8
+number5=4
+largest=number1
+if number2 > largest:
+    largest=number2
+
+if number3 > largest:
+    largest=number3
+
+if number4 > largest:
+    largest=number4
+
+if number5 > largest:
+    largest=number5
+
+print(largest)
+```
+
+Great. This works. But what if the problem was to find the largest in 100 numbers. Or 1000 numbers. Or 10,000 numbers. Can you imagine how long the program will be and how long it will take to type it. We are missing something. We are missing the vocabulary to store things as a group. We are missing the vocabulary to repeat things. If you look back, our English language solution to the problem was:
+
+
+1. Pick the first card.
+2. Pick the next card.
+3. If the new card is bigger then keep that in your hand and drop the older card. Basically keep the card with the larger number and drop the card with the smaller number.
+4. Do steps 2 and 3 until you run out of cards.
+5. The card in your hand is the largest card.
+
+Step 4 is the important one. Look how we just said, do.... until. Lets see how we can do the same in Python.
+
+First, lets look at how to group things. Python gives us lists. So instead of storing the invidual numbers in individual variables like number1, number2, number3 etc, we can store all the numbers in one list. We can define a list using \[\].
+
+```python
+numbers=[5,1,3,8,4]
+```
+
+Done. So much easier than defining one variable for each number. But how can we access the individual numbers? Easy, you can access them as numbers\[0\], numbers\[1\], numbers\[2\], numbers\[3\], numbers\[4\].
+
+Did you notice something quirky? The first numbers was accessed as numbers\[0\]. The second was accessed as numbers\[1\] and so on. That means list element counting starts from 0. I know, I know. All your life you have counted things starting with 1. But in programming, for historical and other reasons, for list elements, the counting starts from 0. So if you want the 100th element in the list you can access it as numbers\[99\] if the list name is numbers.
+
+Second, we just need the vocabulary to execute some statements repeatedly. And for that in Python, we have the 'for' statement.
+
+The syntax of the 'for' statement is
+```python
+for variable in list:
+    statements
+```
+In the above, 'variable' is the name of the variable which will take one value from the 'list' at a time. 'statements' are executed as many times as the number of 'list' elements are there. So, if the list has 5 elements, then the statements will be executed 5 times. Lets look at the simplest example.
+
+```python
+avengers=["iron man","spiderman","hulk","captain america","thor"]
+
+for x in avengers:
+    print(x)
+```
+The above program will print the name of the avengers one at a time.
+
+With these two new concepts lets see how we can solve the largest number problem. The pseudo code can be
+
+1. Store numbers in a list
+2. Initialize largest to first element
+3. for number in list
+4. if number is greater than largest
+5. Assign number to largest
+5. Print largest.
+
+Now lets do the actual Python code with the correct syntax.
+
+```python
+numbers=[5,1,3,8,4]
+largest=numbers[0]
+for number in numbers:
+    if number > largest:
+        largest=number
+    
+
+print(largest)
+```
+
+Notice how close the Python program is to our general language. You just need to be careful with the indentation and the syntax.
+
+Let's do a quick revision. In Python language we have learnt:
+1. Assignment
+2. Conditionals
+3. Loops
+
+With these three constructs you can write almost any program you want. Programming is really so simple. Just these 3 statements and you can make the computer do whatever you want.
+
+Let's see if you can solve the following problem by yourself.
+
+Problem: Take 10 numbers in a list. Take a number you have to search in another variable. Search for the second number in the list. If the number is found, print found. If not, print not found.
+
+Discuss with your parents or friends. Take your time. Work slowly one step at a time. This is one of the most common problem in computer science. So if you get this you have done a great job. Once you are done, let's go to the next chapter.
