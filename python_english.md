@@ -210,8 +210,8 @@ A little hard no? It's ok. Once you practice a few it will become easy.
 Now let's see with this new knowledge how can we write the sentence 'If Number_of_apples_raja_has is more than Number_of_apples_rani_has then Raja is the winner. Otherwise Rani is the winner.' in Python
 
 ```python
-Number_of_apples_raja_has=5`
-Number_of_apples_rani_has=4`
+Number_of_apples_raja_has=5
+Number_of_apples_rani_has=4
 
 if Number_of_apples_raja_has > Number_of_apples_rani_has:    
     print("Raja is the winner")    
