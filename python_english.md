@@ -336,6 +336,11 @@ Great. Now lets try to combine all the concepts into one problem. See if you can
 
 Problem: Store marks of different subjects. Find their total. If the total is above or equal to 80 give A grade. If total is between 60 and 80 give B grade. If total is between 40 and 60 give C grade. If total is below 40 give F grade.
 
+Some more fun exercises you can try:
+
+1. You have 10 marbles. Your brother has 5 marbles. If you have more marbles print you are the winner. If you have lesser marbles, you are the loser. If both have equal number of marbles, its a tie.
+2. Take the current year in a variable. Print if it is a leap year or not.
+3. Find the max of 3 variables.
 
 ## Lists and Loops
 
@@ -408,11 +413,13 @@ The above program will print the name of the avengers one at a time.
 With these two new concepts lets see how we can solve the largest number problem. The pseudo code can be
 
 1. Store numbers in a list
-2. Initialize largest to first element
-3. for number in list
+2. Initialize largest to first element. This is needed because we need to start someplace.
+3. for every number in list do the below
 4. if number is greater than largest
 5. Assign number to largest
-5. Print largest.
+What steps 4 and 5 are doing is making sure that we always have the largest number in our hand. If the next number we pick is larger than the one in hand, we drop the one in our hand and keep the new number. If not, we continue to next number.
+Finally,
+6. Print largest.
 
 Now lets do the actual Python code with the correct syntax.
 
